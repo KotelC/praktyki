@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.kontener {
+display: flex;
+justify-content: space-around;
+}
+
+img {
+height: 600px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+} 
+
+.lewy button {
+vertical-align: middle;
+}
+
+.lewy {
+height: 600px;
+width: 10%;
+display: flex;
+opacity: 0;
+}
+
+.strzalkal, .strzalkap{
+    font-size: 50px; 
+    display: block;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:250px;
+    }
+
+.lewy:hover, .prawy:hover {
+opacity:1;
+}
+
+.zdjecie {
+height: 600px;
+width: 80%;
+}
+
+.prawy button {
+vertical-align:middle;   
+}
+
+.prawy {
+height: 600px;    
+width: 10%;
+display: flex;
+opacity: 0;
+}
+
